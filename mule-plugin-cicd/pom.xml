@@ -31,20 +31,20 @@
 				<extensions>true</extensions>
 				<configuration>
 				      <cloudHubDeployment>
-				           <username>nishantha</username>
+				      <!--       <username>nishantha</username>
 				         <password>Abbireddi10</password>         
 				         <workers>1</workers>
 				         <workerType>Micro</workerType>
 				         <environment>Sandbox</environment>
 				         <muleVersion>4.5</muleVersion>
-				         <applicationName>mule-plugin-cicd</applicationName>
-				        <!--  <username>${username}</username>
+				         <applicationName>mule-plugin-cicd</applicationName> -->
+				          <username>${username}</username>
 				         <password>${password}</password>         
 				         <workers>${workers}</workers>
 				         <workerType>${worker.type}</workerType>
 				         <environment>${environment}</environment>
 				         <muleVersion>${mule.version}</muleVersion>
-				         <applicationName>${application.name}</applicationName> -->
+				         <applicationName>${application.name}</applicationName> 
 				         
 				     </cloudHubDeployment>
    				</configuration>
